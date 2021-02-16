@@ -296,7 +296,7 @@ function parseCalls(xml) {
 				}
 			}
 		}
-		number = address.replace("tel:", "").replace("+" + countryCode,
+		number = address.replace("tel:", "9").replace("+" + countryCode,
 				"+" + countryCode + "-");
 		var startTime = call.getElementsByTagName('xsi:startTime').item(0)
 				.getFirstChild().getNodeValue();
